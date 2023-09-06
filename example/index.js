@@ -8,6 +8,7 @@ async function init() {
     await bird.login();
     const nearbyScooters = await bird.getScootersNearby(MY_LOCATION.latitude, MY_LOCATION.longitude);
     console.log(nearbyScooters);
+    // const data = await bird.
   } catch (err) {
     console.log(err);
   }
