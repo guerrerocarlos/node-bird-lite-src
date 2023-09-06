@@ -6,7 +6,7 @@ This is the _Lite Version_ of [https://github.com/jzarca01/node-bird](https://gi
 ## Usage
 
 ```javascript
-const Bird = require("node-bird-lite");
+const Bird = require("node-bird-lite-src");
 const bird = new Bird();
 ```
 
